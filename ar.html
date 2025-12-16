@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AR Try-On | ArtisanHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ede0d4;
+            color: #3e2723;
+            text-align: center;
+        }
+
+        header {
+            background-color: #7b2c2c;
+            color: white;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        header a {
+            color: white;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+
+        .ar-container {
+            padding: 60px 20px;
+        }
+
+        .ar-box {
+            width: 300px;
+            height: 300px;
+            margin: 30px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+
+        button {
+            padding: 12px 25px;
+            border-radius: 25px;
+            background-color: #7b2c2c;
+            color: white;
+            border: none;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div><strong>ArtisanHub</strong></div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+    </nav>
+</header>
+
+<section class="ar-container">
+    <h1>AR Try-On Experience</h1>
+    <p>
+        Use Augmented Reality to preview handicrafts in real-time.
+        Jewelry can be tried virtually, and décor items can be placed
+        in your surroundings.
+    </p>
+
+    <div class="ar-box">
+        <p>📱 AR Camera View Placeholder</p>
+        <!-- Future AR Integration:
+             - WebAR
+             - Three.js
+             - AR.js
+             - Model Viewer
+        -->
+    </div>
+
+    <button onclick="launchAR()">Start AR Experience</button>
+</section>
+
+<script>
+    function launchAR() {
+        alert("AR functionality will be integrated here using WebAR or AR SDK.");
+    }
+</script>
+
+</body>
+</html>
