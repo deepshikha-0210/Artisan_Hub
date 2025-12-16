@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop | ArtisanHub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f1e6;
+            color: #3e2723;
+        }
+
+        header {
+            background-color: #7b2c2c;
+            color: #fff;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a {
+            color: white;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 40px 0;
+            color: #7b2c2c;
+        }
+
+        .products {
+            padding: 0 40px 60px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            padding-bottom: 15px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 15px 0 5px;
+        }
+
+        .card p {
+            font-weight: bold;
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: #7b2c2c;
+            color: white;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div><strong>ArtisanHub</strong></div>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="ar.html">AR Try-On</a>
+    </nav>
+</header>
+
+<h1>Shop Handcrafted Products</h1>
+
+<section class="products">
+    <div class="card">
+        <img src="https://via.placeholder.com/300?text=Jewelry">
+        <h3>Silver Tribal Necklace</h3>
+        <p>₹3,499</p>
+        <a href="product.html">View Product</a>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300?text=Pottery">
+        <h3>Hand-Painted Vase</h3>
+        <p>₹2,199</p>
+        <a href="product.html">View Product</a>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300?text=Textile">
+        <h3>Handloom Dupatta</h3>
+        <p>₹4,799</p>
+        <a href="product.html">View Product</a>
+    </div>
+</section>
+
+</body>
+</html>
